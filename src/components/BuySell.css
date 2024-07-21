@@ -1,0 +1,76 @@
+.buysell-card{
+    width:400px !important;
+    margin: 0;
+    padding-right: 20px;
+}
+
+.buysell-buttons{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.buy-button{
+    color: green;
+    margin:10px;
+    width:80px;
+    height: 100%;
+}
+
+.sell-button{
+    color: red;
+    height: 100%;
+    width:80px;
+    margin:10px;
+}
+
+.buysell-label{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.buysell-text{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(235, 243, 235);
+    border: 0;
+}
+
+.buy-sell-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+.submit-btn{
+    height:40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(82, 180, 82);
+    border: 0;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+}

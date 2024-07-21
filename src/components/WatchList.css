@@ -1,0 +1,14 @@
+.watch-card{
+    width: 400px !important;
+    margin: 0px 10px 0px 10px;
+    padding-right: 10px;
+}
+
+.watch-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.watch-heading{
+    margin-left: 20px;
+}

@@ -1,0 +1,41 @@
+ .stocks-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: #fff;
+  padding-left: 10px;
+  list-style: none;
+}
+
+.niftyimg {
+  height: 50px;
+}
+
+import React from "react";
+import Indexcard from "./Components/Indexcard";
+import Stockcard from "./Components/Stockcard";
+
+const App = () => {
+  return (
+    <>
+      <div className="box">
+        <Indexcard title="nifty 50" price="24000" change="1.50%" />
+        <Indexcard title="nifty 50" price="24000" change="1.50%" />
+        <Indexcard title="nifty 50" price="24000" change="1.50%" />
+      </div>
+      <div className="stock-card-box">
+        <Stockcard />
+        <Stockcard />
+        <Stockcard />
+      </div>
+    </>
+  );
+};
+
+export default App;

@@ -1,0 +1,20 @@
+/* .index-card {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: #fff;
+    padding-left: 10px;
+  } */
+
+
+.index-heading{
+    margin-left: 20px;
+    margin-bottom:5px;
+}
+  
